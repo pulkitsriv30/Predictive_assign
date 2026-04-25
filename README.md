@@ -61,5 +61,9 @@ Below is the simple comparative table of the 6 models evaluated on the unseen te
 ## Result Graph Explanation
 A visualization plotting the `Actual vs. Predicted` values for the best-performing model (Linear Regression) demonstrates a perfect diagonal correlation line. This indicates that the algorithm successfully learned the exact underlying multiplicative formula defined in the custom simulator. In contrast, residual plots for non-linear models like KNN and SVR would show wider dispersion, confirming their inability to cleanly approximate the specific feature relationships without hyperparameter tuning.
 
+## Colab Link 
+https://colab.research.google.com/drive/1L22dkYQocJR9nddXbqja7oHxqcAMS8ZL?usp=sharing
+
+
 ## Conclusion
 **Linear Regression**, **Gradient Boosting**, and **Random Forest** achieved perfect or near-perfect $R^2$ scores, effectively capturing the data variance. Traditional distance-based and margin-based models (KNN and SVR) performed poorly out-of-the-box due to the highly deterministic, formulaic nature of the generated dataset.
